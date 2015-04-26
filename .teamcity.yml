@@ -1,0 +1,4 @@
+name: Build via maven
+description: YAML is much better than XML
+runners:
+  - base: mvn clean test
