@@ -1,6 +1,6 @@
 name: Build via maven
 description: YAML is much better than XML
 runners:
-        - base: mvn -Dmaven.test.skip=true clean package
+        - base: mvn clean package
 artifacts:
-        - target/*.jar
+        - target/*sources.jar
